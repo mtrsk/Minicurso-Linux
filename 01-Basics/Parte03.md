@@ -1,0 +1,1 @@
+## Hard e Soft links
