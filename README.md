@@ -15,5 +15,5 @@ Roteiro:
 
 extra, se der tempo, apenas pra galera do Linux:
 
-* SystemD
+* Systemd
 

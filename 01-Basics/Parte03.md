@@ -6,6 +6,8 @@ Compartilham o mesmo inode
 
 ## Soft Links
 
+## Permissões
+
 
 
 
@@ -26,3 +28,9 @@ Compartilham o mesmo inode
 6   -> 4 + 2 ->   rw
 7 -> 4 + 2 + 1->  rwx
 ```
+
+### chmod
+
+### chgrp
+
+### umask

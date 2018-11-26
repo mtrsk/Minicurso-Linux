@@ -2,8 +2,39 @@
 
 <h2 id="fhs"> FHS - Filesystem Hierarchy Standart </h2>
 
-| ![Filesystem Hierarchy Standart](fhs.png) |
-|:--:| 
+![Filesystem Hierarchy Standart](fhs.png)
+
+> The filesystem can be though as of comprising four main components:
+> * A namespace - a way to name things and organize them in a hierarchy
+> * An API - a set of system calls for navigating and manipulating objects
+> * Security models - Schemes for protecting, hiding and sharing things
+> * An implementation - software to tie logical model to the hardware
+>
+> Fonte: [Unix and Linux System Administration Handbook]()
+
+* bin/sbin/usr
+
+* boot
+
+    ```
+    ls /boot
+    ```
+
+* dev
+    Possui arquivos especiais que representam os dispotivos do computador como arquivos
+
+* etc
+    Possui arquivos de configuração do sistema
+
+    - fstab
+    - profile
+    - group
+    - services
+    - passwd
+    - hostname
+    - shadow & gshadow
+    - login.defs
+    - sudoers
 
 * proc
 
@@ -37,6 +68,13 @@
         watch -n 1 cat /proc/interrupts
         ```
 
+* sys
+    Estruturas de dados do kernel que estão guardadas na memória
+
+    ```
+    cat /sys/class/net/enp7s0/address
+    ```
+
 <h2 id="pratica"> Prática </h2>
 
 <h4 id="lsblk"> lsblk - List Block Devices </h4>
@@ -53,6 +91,9 @@ sda
 <h4 id="lsblk"> blkid - Block ID </h4>
 
 > **uuid = Universal Unique Id**
+
+<h4 id="findmnt"> findmnt </h4>
+
 
 <h4 id="fsck"> fsck - File System Check</h4>
 
@@ -72,6 +113,13 @@ df -h /
 
 Estima o uso de disco para cada arquivo
 
+<h4 id="fuser"> fuser </h4>
+
+```
+fuser -c /usr/home
+```
+
+<h4 id="stat"> stat </h4>
 
 ## Referências
 
