@@ -86,19 +86,25 @@ cat /etc/passwd
 
 ## wc
 
+```
+wc /etc/passwd
+wc -l /etc/passwd
+```
+
+## tr
+
+* -d
+
 ## sort
 
 * -r
 * -k
 
+
 ## uniq
 
 * -d
 * -c
-
-## tr
-
-* -d
 
 ## cut
 
@@ -106,6 +112,10 @@ cat /etc/passwd
 * -b
 * -f
 * -d
+
+```
+cut -d: -f7 /etc/passwd | sort | uniq -c
+```
 
 ---------
 

@@ -1,5 +1,7 @@
 # Regex
 
+![Common Patterns](common-patterns.png)
+
 ```
 echo '1 é um numero' | sed 's/1/um/'
 ```

@@ -23,6 +23,13 @@
 * dev
     Possui arquivos especiais que representam os dispotivos do computador como arquivos
 
+    - /dev/null
+    - /dev/urandom
+
+    ```
+    od -d
+    ```
+
 * etc
     Possui arquivos de configuração do sistema
 
@@ -112,6 +119,10 @@ df -h /
 <h4 id="du"> du </h4>
 
 Estima o uso de disco para cada arquivo
+
+```
+du -sh /home/ | sort -h
+```
 
 <h4 id="fuser"> fuser </h4>
 
