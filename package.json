@@ -1,0 +1,22 @@
+{
+  "name": "minicurso-linux",
+  "version": "0.0.1",
+  "description": "Um minicurso da JIM 2018, pra ajudar o pessoal a se familiarizar com Linux. PRs e correções são sempre bem vindas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschonfinkel/Minicurso-Linux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mschonfinkel/Minicurso-Linux/issues"
+  },
+  "homepage": "https://github.com/mschonfinkel/Minicurso-Linux#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
