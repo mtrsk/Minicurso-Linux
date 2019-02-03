@@ -1,6 +1,4 @@
-# Parte03
-
-## Hard & Soft links, Permissões
+# Hard & Soft links, Permissões
 
 ## Hard Links
 
