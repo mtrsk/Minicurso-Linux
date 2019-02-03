@@ -22,9 +22,7 @@ O valor guardado em `$SHELL` denota sua shell atual, enquanto o valor de `$TERM`
 
 A shell é um programa que gera outros programas, ela também interpreta comandos fornecidos pelo usuário \(que digita esses comandos em algum emulador de terminal\).
 
-| ![Crian&#xE7;as dos anos 80 v&#xE3;o lembrar disso](../.gitbook/assets/terminal.jpg) |
-| :---: |
-| _Um terminal de verdade_ |
+![](../.gitbook/assets/terminal.jpg)
 
 Para checar a origem dos nomes `shell` e `terminal` consulte as referências.
 
