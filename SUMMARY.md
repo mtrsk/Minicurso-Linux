@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Minicurso - Linux/Unix, Shell Script e Vim](README.md)
-* [Introdução](index.md)
+* [Sumário](index.md)
 * [Historia](00-historia/README.md)
   * [Uma breve história do \*nix](00-historia/index.md)
 * [Básicos](01-basics/README.md)

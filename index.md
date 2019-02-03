@@ -1,4 +1,4 @@
-# Introdução
+# Sumário
 
 Mini curso para a Jornada de Informática do Maranhão, UFMA 2018.
 
