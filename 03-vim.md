@@ -11,7 +11,8 @@ Os 3 modos que veremos no curso são:
 ## Prática:
 
 Após instalar o Vim em sua distribuição digite:
-```
+
+```text
 vimtutor
 ```
 

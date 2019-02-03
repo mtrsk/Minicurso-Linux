@@ -1,3 +1,5 @@
+# Parte03
+
 ## Hard & Soft links, Permissões
 
 ## Hard Links
@@ -8,18 +10,14 @@ Compartilham o mesmo inode
 
 ## Permissões
 
-
-
-
 #### Modo Octal
 
+| Octal | r | w | x |
+| :--- | :--- | :--- | :--- |
+|  | 4 | 2 | 1 |
+| 2^x | 2 | 1 | 0 |
 
-|Octal | r  | w  | x  |
-|------|----|----|----|
-|      | 4  | 2  | 1  |
-| 2^x  | 2  | 1  | 0  |
-
-```
+```text
 1       ->        x
 2       ->        w
 3   -> 2 + 1 ->   wx
@@ -34,3 +32,4 @@ Compartilham o mesmo inode
 ### chgrp
 
 ### umask
+
